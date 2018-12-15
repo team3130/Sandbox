@@ -5,11 +5,15 @@ import java.util.Scanner;
  * @author Eastan
  * @version 10/11/18
  */
-public class LeapYearTemplate {
+public class LoweLeapYear {
 
     public static boolean isLeapYear(int year){
-       //TODO: put your code here, your method should take a integer year and return whether or not it is a leap year. True if it is, false if it isn't
-        return true;
+        if (year % 4 == 0) {
+            return true;
+        }else if (year %4 != 0) {
+            return false;
+        }
+        return false;
     }
 
 
@@ -17,7 +21,7 @@ public class LeapYearTemplate {
         Scanner sc = new Scanner(System.in);
         System.out.println("Type in a year.");
         int testYear = sc.nextInt();
-        if(LeapYearTemplate.isLeapYear(testYear) == true){
+        if(LoweLeapYear.isLeapYear(testYear) == true){
             System.out.println("The year " + testYear + " is a leap year");
         }else{
             System.out.println("The year " + testYear + " is not a leap year");
