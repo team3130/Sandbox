@@ -9,6 +9,7 @@ public class LeapYearTemplate {
 
     public static boolean isLeapYear(int year){
        //TODO: put your code here, your method should take a integer year and return whether or not it is a leap year. True if it is, false if it isn't
+                return false;
     }
 
 
