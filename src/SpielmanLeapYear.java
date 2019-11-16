@@ -5,6 +5,7 @@ import java.util.Scanner;
  * @author Eastan
  * @version 10/11/18
  */
+
 public class LeapYearTemplate {
 
     public static boolean isLeapYear(int year){
