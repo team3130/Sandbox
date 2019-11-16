@@ -12,8 +12,6 @@ public class LeapYearTemplate {
         { return true; }
         return true;
     }
-        return true;
-    }
 
     public static void main(String[]args) {
         Scanner sc = new Scanner(System.in);
