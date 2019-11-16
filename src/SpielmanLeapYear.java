@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 /**
  * TThis file will check if a year is a leap year.
- * @author Eastan
- * @version 10/11/18
+ * @author Caleb Spielman
+ * @version 11/15/2019
  */
 
 public class LeapYearTemplate {
