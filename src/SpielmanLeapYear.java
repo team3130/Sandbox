@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class LeapYearTemplate {
 
     public static boolean isLeapYear(int year){
-        if(isLeapYear(int year % 4) == 0)
-        { return true; }
+        if(isLeapYear(int year % 4) == 0){
+            return true; }
         return true;
     }
 
