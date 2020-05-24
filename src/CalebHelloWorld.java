@@ -4,9 +4,13 @@ public class CalebHelloWorld {
         System.out.println("Hello World!");
         System.out.println("Hello World!");
         boolean BiddyIsEpic = true;
-        System.out.print("Is Biddy epic? ");
-        System.out.print(BiddyIsEpic);
-        System.out.print("Python is better -Caleb");
-        System.out.print("BTW = But Tenserflow Works");
+        System.out.println("Is Biddy epic? ");
+        System.out.println(BiddyIsEpic);
+        System.out.println(" Python is better -Caleb ");
+        System.out.println(" BTW = But Tenserflow Works ");
+        System.out.println("Do you drive a honda accord?");
+        System.out.println("REMEMBER ohio does not exist it is fake and you have to believe me because you are reading it");
+        System.out.println("Are you sure you don't drive a honda accord");
+        
     }
 }
