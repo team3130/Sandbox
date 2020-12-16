@@ -8,10 +8,13 @@ public class Viechle {
     protected final String m_name;
     // different modes are 'D' for drive, 'R' for reverse, 'N' for neutral, and 'P' for park
     private char m_mode;
+    // Constructor
     public Viechle(String NewModel, int age, String name) {
+        //constructing the object by storing variables in the object (this.varName)
         this.m_model = NewModel;
         this.m_age = age;
         this.m_wipers = false;
+        //default mode
         this.m_mode = 'D';
         this.m_name = name;
     }
@@ -20,26 +23,29 @@ public class Viechle {
 
      Notice how methods are in camel case nameName
      */
+
+    //This hunk of code changes the mode the car is in
     private String putInPark() {
         this.m_mode = 'P';
-        return this.m_model + " is now in park";
+        return this.m_name + " is now in park";
     }
 
     private String putInReverse() {
         this.m_mode = 'R';
-        return this.m_model + " is now in reverse";
+        return this.m_name + " is now in reverse";
     }
 
     private String putInDrive() {
         this.m_mode = 'D';
-        return this.m_model + " is now in drive";
+        return this.m_name + " is now in drive";
     }
 
     private String coast() {
         this.m_mode = 'N';
-        return this.m_model + "is now coasting and in neutral";
+        return this.m_name + "is now coasting and in neutral";
     }
 
+    // this is known as a toggle method which toggles the boolean value
     private boolean toggleWindshieldWipers() {
         if (this.m_wipers) {
             this.m_wipers = false;
@@ -51,6 +57,7 @@ public class Viechle {
         }
         return false;
     }
+    // We use setters and getters to encapsulate our data whenever we want to use it outside of the class the data belongs to
     private int getAge() {
         return this.m_age;
     }
